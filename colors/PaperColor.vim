@@ -1716,7 +1716,7 @@ fun! s:apply_syntax_highlightings()
   exec 'hi haskellType' . s:fg_aqua . s:ft_bold
   exec 'hi haskellIdentifier' . s:fg_orange . s:ft_bold
   exec 'hi haskellOperators' . s:fg_pink
-  exec 'hi haskellWhere' . s:fg_foreground . s:ft_bold
+  exec 'hi haskellWhere' . s:fg_blue . s:ft_bold
   exec 'hi haskellDelimiter' . s:fg_aqua
   exec 'hi haskellImportKeywords' . s:fg_pink
   exec 'hi haskellStatement' . s:fg_purple . s:ft_bold
